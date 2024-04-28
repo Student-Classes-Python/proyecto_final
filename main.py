@@ -7,6 +7,7 @@ from example import Servicio, ServicioConcreto, Cliente
 from startup.service_collection_extensions import ModuloDeAplicacion
 
 
+
 # Crear un injector y utilizarlo para obtener una instancia de Cliente
 injector_obj = injector.Injector(ModuloDeAplicacion())
 cliente = injector_obj.get(Cliente)
