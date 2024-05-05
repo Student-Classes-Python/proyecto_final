@@ -10,6 +10,7 @@ from pgzero.actor import Actor
 from pgzero.keyboard import keyboard
 from pgzero.screen import Screen
 
+
 # Crear un injector y utilizarlo para obtener una instancia de Cliente
 injector_obj = injector.Injector(ModuloDeAplicacion())
 cliente = injector_obj.get(Cliente)
