@@ -5,5 +5,3 @@ class DataModel():
         self.precio_entrada = precio_entrada
 
     
-
-    

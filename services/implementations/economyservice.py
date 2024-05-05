@@ -1,6 +1,9 @@
 from services.ieconomyservice import IEconomyService
 
 class EconomyService(IEconomyService):
+    def __init__(self) -> None:
+         self.saldo = 0
+
     def __init__(self, saldo: int) -> None:
         self.saldo = saldo
 
